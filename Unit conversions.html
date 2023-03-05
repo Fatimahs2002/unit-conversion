@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Unit Conversion</title>
+        <link rel="stylesheet" href="unit conversion.css">
+    </head>
+    <body>
+        <section id="home">
+<header><b>U</b>nit Conversion</header>
+    <nav>
+        <button class="btnnav" id="ADDTemperature">Temperature</button>
+        <button class="btnnav" id="AddWeight" >Weight</button>
+        <button class="btnnav" id="ADDDistance" >Distance</button>
+      </nav>  
+        </section>
+
+        <div id="all-conversion-section">
+           <div class="conv">
+
+            <section class="tempeture" id="temperature">
+                <div class="tmp">
+                <h1>Temperature</h1> 
+                <article>
+          <div class="feildset">
+            <input type="number" id="c" placeholder="Temperature"><br/>
+            <button class="cnvrt"  id="first_cnvrt">Convert</button><br/>
+            <input type="number" id="result1" placeholder="temperature" disabled><br/>
+        </div>
+        <figure>
+            <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/thermo.png" />
+        </figure>
+    </article>
+    <aside>
+    To convert celsuis to fahrenheit yourself, <br>
+    use this formula replacing the `C` with your temperature in celsuis: (C × 9/5) + 32.
+</aside>
+</div>
+</section>
+
+
+            <section class="weight" id="weight">
+                <div class="wgt">
+                    <h1>Weight</h1> 
+              <article>
+                <div class="feildset">
+                    <input type="number" id="kg" placeholder="Kilograms"><br/>
+                    <button class="cnvrt" style="margin-top: 20px;" id="second_cnvrt">Convert</button><br/>
+                    <input type="number" id="result2" placeholder="Kilograms" disabled>
+                   <br>
+                </div>
+                <figure>
+                    <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/weight.png" >
+                   </figure>
+              </article><br>
+              <aside>
+              To convert kilograms to pounds yourself,<br>
+                 use this formula replacing the `kg` with your weight in kilograms: kg x 2.205.
+                </aside>
+                </div>
+               </section>
+
+
+    <section class="distance" id="distance">
+   <div class="dis">
+    <h1>Distance</h1>
+    <article>
+        <div class="feildset">
+                    <input type="number" id="km" placeholder="Kilometers"><br/>
+                    <button class="cnvrt" id="third_cnvrt">Convert</button><br/>
+                    <input type="number" id="result3" placeholder="Kilometers" disabled><br/>  
+        </div>
+        <figure>
+            <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/speedo.png"  />
+        </figure>
+    </article><br><br>
+    <aside>
+        To convert kilometers to miles yourself,<br>
+         use this formula replacing the `km` with your distance in kilmeters: km &divide; 1.609.
+    </aside>
+
+   </div>
+    </section>
+
+        </div>
+    </div>
+      <footer>
+        <div class="cmnt">
+     Write a commemt:
+     <input type="text" placeholder="Your comment..." id="">
+     <button class="submit">Submit</button>
+    </div>
+     <div class="socail">
+        <p>Follow Us</p> 
+        <div>
+        <img src="facebook.png" alt="" class="fIcon">
+        <img src="twitter.png" alt="" class="fIcon">
+        <img src="instagram.png" alt="" class="fIcon">
+        <img src="whatsapp.png" alt="" class="fIcon">
+    </div>
+     </div>
+      </footer>
+    <script src="./unit conversion.js"></script>
+    </body>
+</html>
